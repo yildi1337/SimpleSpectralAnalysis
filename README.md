@@ -3,10 +3,12 @@ A simple Matlab function for calculating various spectra/spectral densities
 
 # Details
 The function ''calculate_spectra'' (together with the subfunction ''calculate_onesidedfft'') allows to calculate the
+
 * Power Spectral Density (PSD)
 * Power Spectrum (PS)
 * Linear/Amplitude Spectral Density (LSD)
 * Linear/Amplitude Spectrum (LS)
+
 for a given input (time-domain) signal. In the test script, the time-domain signal x is given by a sinusoidal voltage signal with a frequency of $1~\mathrm{kHz}$ and superimposed white noise with a voltage noise density of $1~\mu\mathrm{V}/\sqrt{\mathrm{Hz}}$.
 
 # Pictures
