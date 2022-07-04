@@ -7,7 +7,7 @@ The function ''calculate_spectra'' (together with the subfunction ''calculate_on
 * Power Spectrum (PS)
 * Linear/Amplitude Spectral Density (LSD)
 * Linear/Amplitude Spectrum (LS)
-for a given input (time-domain) signal. In the test script, the time-domain signal x is given by a sinusoidal voltage signal with a frequency of <img src="https://render.githubusercontent.com/render/math?math=d = 1~\mathrm{kHz}"> and superimposed white noise with a voltage noise density of <img src="https://render.githubusercontent.com/render/math?math=d = 1~\mathrm{V}/\sqrt{\mathrm{Hz}}">.
+for a given input (time-domain) signal. In the test script, the time-domain signal x is given by a sinusoidal voltage signal with a frequency of $1 \mathrm{kHz}$ and superimposed white noise with a voltage noise density of <img src="https://render.githubusercontent.com/render/math?math=1~\mathrm{V}/\sqrt{\mathrm{Hz}}">.
 
 # Pictures
 
