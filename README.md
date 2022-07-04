@@ -179,3 +179,11 @@ X_onesided = X_twosided(1:NFFT/2+1);
 <p align="center">
   <img src="https://github.com/yildi1337/SimpleSpectralAnalysis/blob/main/img/results.png" />
 </p>
+
+# References
+
+I can recommend the following articles that explain more details of spectral analysis:
+
+* G. Heinzel, A. Rüdiger, R. Schilling, Spectrum and spectral density estimation by the Discrete Fourier transform (DFT), including a comprehensive list of window functions and some new flat-top windows, 2002. https://pure.mpg.de/pubman/faces/ViewItemOverviewPage.jsp?itemId=item_152164
+* P. Welch, The use of fast Fourier transform for the estimation of power spectra: A method based on time averaging over short, modified periodograms, 1967. http://doi.org/10.1109/TAU.1967.1161901
+* H. Schmid, How to use the FFT and Matlab’s pwelch function for signal and noise simulations and measurements, 2012. http://www.schmid-werren.ch/hanspeter/publications/2012fftnoise.pdf
