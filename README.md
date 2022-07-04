@@ -9,7 +9,7 @@ The function ''calculate_spectra'' (together with the subfunction ''calculate_on
 * Linear/Amplitude Spectral Density (LSD)
 * Linear/Amplitude Spectrum (LS)
 
-for a given input (time-domain) signal. In the test script, the time-domain signal x is given by a sinusoidal voltage signal with a frequency of $1~\mathrm{kHz}$ and superimposed white noise with a voltage noise density of $1~\mu\mathrm{V}/\sqrt{\mathrm{Hz}}$. **This function is working without the Signal Processing Toolbox.**
+for a given input (time-domain) signal. In the test script, the time-domain signal is given by a sinusoidal voltage signal with an amplitude of $1~\mathrm{V}$ and a frequency of $1~\mathrm{kHz}$ and superimposed white noise with a voltage noise density of $1~\mu\mathrm{V}/\sqrt{\mathrm{Hz}}$. **This function is working without the Signal Processing Toolbox.**
 
 # Test Script
 ```matlab
