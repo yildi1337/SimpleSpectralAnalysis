@@ -12,7 +12,7 @@ The function ''calculate_spectra'' (together with the subfunction ''calculate_on
 for a given input (time-domain) signal. In the test script, the time-domain signal x is given by a sinusoidal voltage signal with a frequency of $1~\mathrm{kHz}$ and superimposed white noise with a voltage noise density of $1~\mu\mathrm{V}/\sqrt{\mathrm{Hz}}$. **This function is working without the Signal Processing Toolbox.**
 
 # Test Script
-```
+```matlab
 % Script for testing the function calculate_spectra which calculates
 % various spectra/spectral densities for a given input signal.
 % In this test, the test signal x is given by a sinusoidal voltage signal
@@ -87,7 +87,7 @@ title([ 'LS: ENBW = ' num2str(ENBW) ' Hz, Naverages = ' num2str(Naverages) ]);
 ```
 
 # Functions
-```
+```matlab
 function [f, PSD, PS, LSD, LS, ENBW, Naverages] = calculate_spectra(x, window, NFFT, fs)
 % Calculates the
 %   - Power Spectral Density (PSD)
@@ -152,7 +152,7 @@ LSD = sqrt(PSD);
 LS = sqrt(PS);
 ```
 
-```
+```matlab
 function [f, X_onesided] = calculate_onesidedfft(x, window, NFFT, fs)
 % Calculates the one-sided and complex-valued FFT of the input signal x. In 
 % addition, the according frequency vector f in Hz is calculated.
